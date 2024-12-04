@@ -1,0 +1,122 @@
+
+/*Importing Google font - Poppins*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins','sans-serif'; } 
+
+body { 
+    
+    height:auto; 
+    background: url("background.png"); 
+    background-position: center; 
+    background-size: cover; }
+
+header { 
+    position: fixed; 
+    top: 0; left: 0; 
+    width: 100%; 
+    padding: 20px; }
+
+header .navbar{ 
+    display: flex; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    justify-content: space-between; }
+
+ .navbar .logo { 
+    font-size: 65px; 
+    font-weight: 600; 
+} 
+    
+.navbar .logo span { 
+    color:#dd957f; 
+}
+
+.navbar .menu-links { 
+    display: flex; 
+    gap: 40px; } 
+
+.navbar a { 
+    color:#000; 
+    font-size: 27px;
+    text-decoration:none;
+    transition: 0.2s ease; 
+} 
+
+.navbar a:hover {
+    color: #dd957f; 
+    border-bottom: 2px solid #dd957f;
+} 
+    
+.hero-section { 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px; 
+} 
+
+.hero-section .content {
+    color:#000;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.hero-section .content h1 {
+    color: #ecc5c5;
+    font-size: 35px;
+    max-width: 600px;
+}
+
+
+.hero-section .content h2 {
+    color:#000;
+}
+
+.hero-section .content p {
+    font-size: 120%;
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .content button {
+    margin-left:5px;
+    background: #f4b28c;
+    outline: none;
+    border: none;  
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease; /* Smooth transition for glowing effect */
+    box-shadow: 0 0 15px 3px #ffc089cc; /* Glowing effect on default state */
+}
+
+.hero-section .content button:hover {
+    color: #000;
+    background: #f4b28c;
+    /* Optional: You can change the glow color or intensity on hover */
+    box-shadow: 0 0 20px 5px #ff9358; /* Slightly brighter glow on hover */
+}
+
+
+img {
+    margin-top: 30px;
+    margin-left: px;
+    padding:5px;
+    width: 500vh;
+    height: 20vh;
+    border-radius: 25px;
+    margin-bottom: 60px;;
+}
+
+
